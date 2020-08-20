@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from LM-V500EM 20i
+# All unpinned blobs below are extracted from LM-V450 20a (Spint)
 
 # Camera
 vendor/lib/hw/camera.msmnile.so
@@ -411,7 +411,9 @@ vendor/firmware/CAMERA_ICP.elf
 
 # Sensors
 vendor/lib/sensors.ssc.so
+vendor/lib/sensors.sar.so
 vendor/lib64/sensors.ssc.so
+vendor/lib64/sensors.sar.so
 
 # Wifi - Firmware
 vendor/etc/wifi/bdwlan.bin
