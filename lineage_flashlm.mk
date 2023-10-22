@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Disable EPPE enforcement
+TARGET_DISABLE_EPPE := true
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
